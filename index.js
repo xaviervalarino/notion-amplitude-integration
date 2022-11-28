@@ -80,7 +80,6 @@ function getAmplitudeData() {
         });
     });
 }
-// getDashboard();
 var db_id = "3206b65977a445a0a01a10840aeff477";
 function addItem(company, generators, foreignKeys) {
     return __awaiter(this, void 0, void 0, function () {
@@ -153,7 +152,6 @@ function updateItem(page_id, generators, foreignKeys) {
         });
     });
 }
-// addItem("Test");
 function queryDB(company) {
     var _a;
     return __awaiter(this, void 0, void 0, function () {

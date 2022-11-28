@@ -40,8 +40,6 @@ async function getAmplitudeData() {
     }
 }
 
-// getDashboard();
-
 const db_id = "3206b65977a445a0a01a10840aeff477";
 
 async function addItem(
@@ -98,8 +96,6 @@ async function updateItem(
         console.error(err);
     }
 }
-
-// addItem("Test");
 
 async function queryDB(company: string) {
     try {
